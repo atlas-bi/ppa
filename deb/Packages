@@ -1,0 +1,16 @@
+Package: atlas-bi
+Version: 0.0.1-rc.1.0.4
+Architecture: all
+Maintainer: Christopher Pickering <christopher@atlas.bi>
+Installed-Size: 28
+Depends: libssl-dev, python3, python3-dev, apt-utils, pkg-config, build-essential, libffi-dev, curl, libldap2-dev, python3-pip, python3-setuptools, unixodbc, unixodbc-dev, libpq-dev, nginx, sqlite3, libsqlite3-0, libsasl2-dev, libxml2-dev, libxmlsec1-dev, redis-server, ufw, nodejs, npm, libjpeg8-dev, zlib1g-dev, libfreetype6-dev, liblcms2-dev, libwebp-dev, libopenjp2-7-dev, libtiff5-dev, tcl8.6-dev, tk8.6-dev, python3-tk, libharfbuzz-dev, libfribidi-dev, libxcb1-dev, python-is-python3, tar, node-gyp, python3-venv, wget, default-jdk, postgresql, postgresql-contrib
+Filename: ./atlas-bi_0.0.1-rc.1.0.4_all.deb
+Size: 6916
+MD5sum: dc965c2501c1af252ebcf381632bdf24
+SHA1: 67fc0d313f737a61d1a99fb2479b052a2c3a1856
+SHA256: becde5a7615d1f744629aef4902e387d107db32fff053acf23510add3b9f2732
+Section: unknown
+Priority: optional
+Homepage: https://atlas.bi
+Description: Atlas BI Library
+
