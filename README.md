@@ -1,11 +1,27 @@
 # Atlas PPA Repository
 
-Install Atlas onto an Ubuntu Server.
+Install Atlas tools onto Ubuntu Server.
+
 
 ```sh
-curl -s --compressed "https://atlas-bi.github.io/ppa/deb/KEY.gpg" | sudo apt-key add -
-sudo curl -s --compressed -o /etc/apt/sources.list.d/atlas.list "https://atlas-bi.github.io/ppa/deb/atlas.list"
-sudo apt update
+sudo apt update; sudo apt install curl gnupg2
+```
+
+Then, connect to the Atlas PPA Repository
+
+```sh
+curl -s "https://packages.atlas.bi/scripts/deb.sh" | sudo bash -
+```
+
+Now, you can install Atlas tools.
+
+```sh
 sudo apt install atlas-hub
 sudo apt install atlas-bi
+```
+
+To get updates:
+
+```sh
+sudo apt update && sudo apt upgrade
 ```
