@@ -2,6 +2,7 @@
 
 Install Atlas tools onto Ubuntu Server.
 
+curl and gnupg2 are prerequisites.
 
 ```sh
 sudo apt update; sudo apt install curl gnupg2
