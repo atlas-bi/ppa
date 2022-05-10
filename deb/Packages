@@ -293,3 +293,22 @@ Description: Atlas Automation Hub
   with getting data from a source and depositing it in a destination,
   primarily sql queries to SFTP servers.
 
+Package: atlas-hub
+Version: 1.4.0
+Architecture: all
+Maintainer: Christopher Pickering <christopher@atlas.bi>
+Installed-Size: 47
+Depends: apt-utils, pkg-config, build-essential, libssl-dev, libffi-dev, git, wget, libldap2-dev, python3-dev, python3-pip, python3-setuptools, unixodbc, unixodbc-dev, libpq-dev, nginx, sqlite3, libsqlite3-0, libsasl2-dev, libxml2-dev, libxmlsec1-dev, redis-server, gnupg, postgresql, postgresql-contrib, python3.8-venv, jq
+Filename: ./atlas-hub_1.4.0_all.deb
+Size: 10784
+MD5sum: 7931d9a4ec1027df95c45542ab3a3e30
+SHA1: 50fcc7d1e45956f47cbaa828536bea0593c3c341
+SHA256: 39d2e608058c2b2718e2dc109859ab2fed2d1343b19b7af9f54ef23475e0f345
+Section: unknown
+Priority: optional
+Homepage: https://atlas.bi
+Description: Atlas Automation Hub
+  Atlas Automation Hub is a task scheduling tool intended to be used
+  with getting data from a source and depositing it in a destination,
+  primarily sql queries to SFTP servers.
+
