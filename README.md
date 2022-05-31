@@ -26,3 +26,10 @@ To get updates:
 ```sh
 sudo apt update && sudo apt upgrade
 ```
+
+## Installing Alpha Versions
+
+```sh
+curl -s --compressed "https://packages.atlas.bi/deb/KEY.gpg" | apt-key add -
+echo "deb [arch=all] https://packages.atlas.bi/deb unstable main" > /etc/apt/sources.list.d/atlas.list
+apt update

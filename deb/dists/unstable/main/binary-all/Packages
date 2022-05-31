@@ -4,7 +4,7 @@ Architecture: all
 Maintainer: Christopher Pickering <christopher@atlas.bi>
 Installed-Size: 28
 Depends: libssl-dev, python3, python3-dev, apt-utils, pkg-config, build-essential, libffi-dev, curl, libldap2-dev, python3-pip, python3-setuptools, unixodbc, unixodbc-dev, libpq-dev, nginx, sqlite3, libsqlite3-0, libsasl2-dev, libxml2-dev, libxmlsec1-dev, redis-server, ufw, nodejs, npm, libjpeg8-dev, zlib1g-dev, libfreetype6-dev, liblcms2-dev, libwebp-dev, libopenjp2-7-dev, libtiff5-dev, tcl8.6-dev, tk8.6-dev, python3-tk, libharfbuzz-dev, libfribidi-dev, libxcb1-dev, python-is-python3, tar, node-gyp, python3-venv, wget, default-jdk, postgresql, postgresql-contrib
-Filename: ./atlas-bi_0.0.1-rc.1.0.3_all.deb
+Filename: pool/unstable/atlas-bi_0.0.1-rc.1.0.3_all.deb
 Size: 6912
 MD5sum: 9e01556827f9fc171d8d4ae36bb18253
 SHA1: cc31830678f49a3e07ff54a64286011a95f48bd6
@@ -20,7 +20,7 @@ Architecture: all
 Maintainer: Christopher Pickering <christopher@atlas.bi>
 Installed-Size: 28
 Depends: libssl-dev, python3, python3-dev, apt-utils, pkg-config, build-essential, libffi-dev, curl, libldap2-dev, python3-pip, python3-setuptools, unixodbc, unixodbc-dev, libpq-dev, nginx, sqlite3, libsqlite3-0, libsasl2-dev, libxml2-dev, libxmlsec1-dev, redis-server, ufw, nodejs, npm, libjpeg8-dev, zlib1g-dev, libfreetype6-dev, liblcms2-dev, libwebp-dev, libopenjp2-7-dev, libtiff5-dev, tcl8.6-dev, tk8.6-dev, python3-tk, libharfbuzz-dev, libfribidi-dev, libxcb1-dev, python-is-python3, tar, node-gyp, python3-venv, wget, default-jdk, postgresql, postgresql-contrib
-Filename: ./atlas-bi_0.0.1-rc.1.0.4_all.deb
+Filename: pool/unstable/atlas-bi_0.0.1-rc.1.0.4_all.deb
 Size: 6916
 MD5sum: dc965c2501c1af252ebcf381632bdf24
 SHA1: 67fc0d313f737a61d1a99fb2479b052a2c3a1856
@@ -36,7 +36,7 @@ Architecture: all
 Maintainer: Christopher Pickering <christopher@atlas.bi>
 Installed-Size: 28
 Depends: libssl-dev, python3, python3-dev, apt-utils, pkg-config, build-essential, libffi-dev, curl, libldap2-dev, python3-pip, python3-setuptools, unixodbc, unixodbc-dev, libpq-dev, nginx, sqlite3, libsqlite3-0, libsasl2-dev, libxml2-dev, libxmlsec1-dev, redis-server, ufw, nodejs, npm, libjpeg8-dev, zlib1g-dev, libfreetype6-dev, liblcms2-dev, libwebp-dev, libopenjp2-7-dev, libtiff5-dev, tcl8.6-dev, tk8.6-dev, python3-tk, libharfbuzz-dev, libfribidi-dev, libxcb1-dev, python-is-python3, tar, node-gyp, python3-venv, wget, default-jdk, postgresql, postgresql-contrib
-Filename: ./atlas-bi_0.0.1-rc.1.0.8_all.deb
+Filename: pool/unstable/atlas-bi_0.0.1-rc.1.0.8_all.deb
 Size: 6912
 MD5sum: be769278912a02b3cf5f9aaf69ec3c14
 SHA1: d640119eda0a978f0f401bda020e829ed8d44ed4
@@ -52,7 +52,7 @@ Architecture: all
 Maintainer: Christopher Pickering <christopher@atlas.bi>
 Installed-Size: 46
 Depends: apt-utils, pkg-config, build-essential, libssl-dev, libffi-dev, git, wget, libldap2-dev, python3-dev, python3-pip, python3-setuptools, unixodbc, unixodbc-dev, libpq-dev, nginx, sqlite3, libsqlite3-0, libsasl2-dev, libxml2-dev, libxmlsec1-dev, redis-server, gnupg, postgresql, postgresql-contrib, python3.8-venv, jq
-Filename: ./atlas-hub_0.0.1-rc.3_all.deb
+Filename: pool/unstable/atlas-hub_0.0.1-rc.3_all.deb
 Size: 10704
 MD5sum: 46c0cb97c0596c066ec866ba22a1ad04
 SHA1: 79efcdf47ac8f41715ec804dc899fbd718d46ea9
@@ -71,7 +71,7 @@ Architecture: all
 Maintainer: Christopher Pickering <christopher@atlas.bi>
 Installed-Size: 46
 Depends: apt-utils, pkg-config, build-essential, libssl-dev, libffi-dev, git, wget, libldap2-dev, python3-dev, python3-pip, python3-setuptools, unixodbc, unixodbc-dev, libpq-dev, nginx, sqlite3, libsqlite3-0, libsasl2-dev, libxml2-dev, libxmlsec1-dev, redis-server, gnupg, postgresql, postgresql-contrib, python3.8-venv, jq
-Filename: ./atlas-hub_0.0.1-rc.4_all.deb
+Filename: pool/unstable/atlas-hub_0.0.1-rc.4_all.deb
 Size: 10524
 MD5sum: 8370debeadf4c822e497cdbd55b1f35f
 SHA1: 9534890abd61e23869d04ca450760d8e88ee078d
@@ -90,7 +90,7 @@ Architecture: all
 Maintainer: Christopher Pickering <christopher@atlas.bi>
 Installed-Size: 46
 Depends: apt-utils, pkg-config, build-essential, libssl-dev, libffi-dev, git, wget, libldap2-dev, python3-dev, python3-pip, python3-setuptools, unixodbc, unixodbc-dev, libpq-dev, nginx, sqlite3, libsqlite3-0, libsasl2-dev, libxml2-dev, libxmlsec1-dev, redis-server, gnupg, postgresql, postgresql-contrib, python3.8-venv, jq
-Filename: ./atlas-hub_0.0.1-rc.5_all.deb
+Filename: pool/unstable/atlas-hub_0.0.1-rc.5_all.deb
 Size: 10524
 MD5sum: 10d32b000297d9a15c55b7834336ac62
 SHA1: 826e32e46eec5f1ca4ad99c7526b739efc821aa9
@@ -109,7 +109,7 @@ Architecture: all
 Maintainer: Christopher Pickering <christopher@atlas.bi>
 Installed-Size: 47
 Depends: apt-utils, pkg-config, build-essential, libssl-dev, libffi-dev, git, wget, libldap2-dev, python3-dev, python3-pip, python3-setuptools, unixodbc, unixodbc-dev, libpq-dev, nginx, sqlite3, libsqlite3-0, libsasl2-dev, libxml2-dev, libxmlsec1-dev, redis-server, gnupg, postgresql, postgresql-contrib, python3.8-venv, jq
-Filename: ./atlas-hub_0.0.1-rc.6_all.deb
+Filename: pool/unstable/atlas-hub_0.0.1-rc.6_all.deb
 Size: 10648
 MD5sum: 8696ed08cb5665c19cec2869d209c64e
 SHA1: 604f1ccb7e255c243b1892db61589a74266f9779
@@ -128,7 +128,7 @@ Architecture: all
 Maintainer: Christopher Pickering <christopher@atlas.bi>
 Installed-Size: 47
 Depends: apt-utils, pkg-config, build-essential, libssl-dev, libffi-dev, git, wget, libldap2-dev, python3-dev, python3-pip, python3-setuptools, unixodbc, unixodbc-dev, libpq-dev, nginx, sqlite3, libsqlite3-0, libsasl2-dev, libxml2-dev, libxmlsec1-dev, redis-server, gnupg, postgresql, postgresql-contrib, python3.8-venv, jq
-Filename: ./atlas-hub_0.0.1-rc.7_all.deb
+Filename: pool/unstable/atlas-hub_0.0.1-rc.7_all.deb
 Size: 10680
 MD5sum: 802d2fc60fe2035d554a83c70fe9598c
 SHA1: 37c6e81c7d3f4cdcfb9e4b558a55b857f1c00096
@@ -147,182 +147,11 @@ Architecture: all
 Maintainer: Christopher Pickering <christopher@atlas.bi>
 Installed-Size: 47
 Depends: apt-utils, pkg-config, build-essential, libssl-dev, libffi-dev, git, wget, libldap2-dev, python3-dev, python3-pip, python3-setuptools, unixodbc, unixodbc-dev, libpq-dev, nginx, sqlite3, libsqlite3-0, libsasl2-dev, libxml2-dev, libxmlsec1-dev, redis-server, gnupg, postgresql, postgresql-contrib, python3.8-venv, jq
-Filename: ./atlas-hub_0.0.1-rc.8_all.deb
+Filename: pool/unstable/atlas-hub_0.0.1-rc.8_all.deb
 Size: 10724
 MD5sum: 07f3f00dea5841225dec20603b5f2193
 SHA1: 5b4aff5b4789607164dc106048d21e8216cad9a7
 SHA256: 21f47a309f39b8fcb8293035dfe83e1679a2a7b53e444957b425dc46cc266d90
-Section: unknown
-Priority: optional
-Homepage: https://atlas.bi
-Description: Atlas Automation Hub
-  Atlas Automation Hub is a task scheduling tool intended to be used
-  with getting data from a source and depositing it in a destination,
-  primarily sql queries to SFTP servers.
-
-Package: atlas-hub
-Version: 1.0.0
-Architecture: all
-Maintainer: Christopher Pickering <christopher@atlas.bi>
-Installed-Size: 47
-Depends: apt-utils, pkg-config, build-essential, libssl-dev, libffi-dev, git, wget, libldap2-dev, python3-dev, python3-pip, python3-setuptools, unixodbc, unixodbc-dev, libpq-dev, nginx, sqlite3, libsqlite3-0, libsasl2-dev, libxml2-dev, libxmlsec1-dev, redis-server, gnupg, postgresql, postgresql-contrib, python3.8-venv, jq
-Filename: ./atlas-hub_1.0.0_all.deb
-Size: 10724
-MD5sum: f80595ffd9ea2ca7301eb2a0173b8e56
-SHA1: 74f253636715907d50d333f9da9284236a6d94ec
-SHA256: bccb6bd65b43dd17798471ed826df7ae38a6e03854e4582524897bb7507a9cf3
-Section: unknown
-Priority: optional
-Homepage: https://atlas.bi
-Description: Atlas Automation Hub
-  Atlas Automation Hub is a task scheduling tool intended to be used
-  with getting data from a source and depositing it in a destination,
-  primarily sql queries to SFTP servers.
-
-Package: atlas-hub
-Version: 1.1.0
-Architecture: all
-Maintainer: Christopher Pickering <christopher@atlas.bi>
-Installed-Size: 47
-Depends: apt-utils, pkg-config, build-essential, libssl-dev, libffi-dev, git, wget, libldap2-dev, python3-dev, python3-pip, python3-setuptools, unixodbc, unixodbc-dev, libpq-dev, nginx, sqlite3, libsqlite3-0, libsasl2-dev, libxml2-dev, libxmlsec1-dev, redis-server, gnupg, postgresql, postgresql-contrib, python3.8-venv, jq
-Filename: ./atlas-hub_1.1.0_all.deb
-Size: 10728
-MD5sum: d269f234a6cc1cc5b47b7b30e5ea4ed3
-SHA1: b5667697d9561236d16e679bbfd3fc7882baf2b5
-SHA256: 352c8034a98e26d82afc9a433f54bfd56df728c534a3fd2925fb5e15f9cd311a
-Section: unknown
-Priority: optional
-Homepage: https://atlas.bi
-Description: Atlas Automation Hub
-  Atlas Automation Hub is a task scheduling tool intended to be used
-  with getting data from a source and depositing it in a destination,
-  primarily sql queries to SFTP servers.
-
-Package: atlas-hub
-Version: 1.2.0
-Architecture: all
-Maintainer: Christopher Pickering <christopher@atlas.bi>
-Installed-Size: 47
-Depends: apt-utils, pkg-config, build-essential, libssl-dev, libffi-dev, git, wget, libldap2-dev, python3-dev, python3-pip, python3-setuptools, unixodbc, unixodbc-dev, libpq-dev, nginx, sqlite3, libsqlite3-0, libsasl2-dev, libxml2-dev, libxmlsec1-dev, redis-server, gnupg, postgresql, postgresql-contrib, python3.8-venv, jq
-Filename: ./atlas-hub_1.2.0_all.deb
-Size: 10772
-MD5sum: 99d8801cc2086881ef0d7eb04cf5c933
-SHA1: 7a97f1be1b987a6c7e8c987a36afd596255c6394
-SHA256: f16891f3bcd17efe6c9cab90cc8ee7c95bfc24e6c2953dc38af37f94eab11c43
-Section: unknown
-Priority: optional
-Homepage: https://atlas.bi
-Description: Atlas Automation Hub
-  Atlas Automation Hub is a task scheduling tool intended to be used
-  with getting data from a source and depositing it in a destination,
-  primarily sql queries to SFTP servers.
-
-Package: atlas-hub
-Version: 1.2.1
-Architecture: all
-Maintainer: Christopher Pickering <christopher@atlas.bi>
-Installed-Size: 47
-Depends: apt-utils, pkg-config, build-essential, libssl-dev, libffi-dev, git, wget, libldap2-dev, python3-dev, python3-pip, python3-setuptools, unixodbc, unixodbc-dev, libpq-dev, nginx, sqlite3, libsqlite3-0, libsasl2-dev, libxml2-dev, libxmlsec1-dev, redis-server, gnupg, postgresql, postgresql-contrib, python3.8-venv, jq
-Filename: ./atlas-hub_1.2.1_all.deb
-Size: 10768
-MD5sum: de78f738758f0ec9dd0805cfe1e9a08e
-SHA1: de9e06ad44ef33f8b2b8b708ec36026471e8f028
-SHA256: c3a663f23e92effcb9d980b0bd18650da2b74b21a5c8d2fb37272efa39cec370
-Section: unknown
-Priority: optional
-Homepage: https://atlas.bi
-Description: Atlas Automation Hub
-  Atlas Automation Hub is a task scheduling tool intended to be used
-  with getting data from a source and depositing it in a destination,
-  primarily sql queries to SFTP servers.
-
-Package: atlas-hub
-Version: 1.2.2
-Architecture: all
-Maintainer: Christopher Pickering <christopher@atlas.bi>
-Installed-Size: 47
-Depends: apt-utils, pkg-config, build-essential, libssl-dev, libffi-dev, git, wget, libldap2-dev, python3-dev, python3-pip, python3-setuptools, unixodbc, unixodbc-dev, libpq-dev, nginx, sqlite3, libsqlite3-0, libsasl2-dev, libxml2-dev, libxmlsec1-dev, redis-server, gnupg, postgresql, postgresql-contrib, python3.8-venv, jq
-Filename: ./atlas-hub_1.2.2_all.deb
-Size: 10768
-MD5sum: 0ca68e4bcc48ef9cc2426c033f9d6507
-SHA1: 6e4511a54cf8d17d6b4308f9c1b7f1dc42b76e22
-SHA256: 5641536d2c4fbe8e28f0926f3d83eca8abac7ebb08a7e84a180fc621ac607f24
-Section: unknown
-Priority: optional
-Homepage: https://atlas.bi
-Description: Atlas Automation Hub
-  Atlas Automation Hub is a task scheduling tool intended to be used
-  with getting data from a source and depositing it in a destination,
-  primarily sql queries to SFTP servers.
-
-Package: atlas-hub
-Version: 1.3.0
-Architecture: all
-Maintainer: Christopher Pickering <christopher@atlas.bi>
-Installed-Size: 47
-Depends: apt-utils, pkg-config, build-essential, libssl-dev, libffi-dev, git, wget, libldap2-dev, python3-dev, python3-pip, python3-setuptools, unixodbc, unixodbc-dev, libpq-dev, nginx, sqlite3, libsqlite3-0, libsasl2-dev, libxml2-dev, libxmlsec1-dev, redis-server, gnupg, postgresql, postgresql-contrib, python3.8-venv, jq
-Filename: ./atlas-hub_1.3.0_all.deb
-Size: 10768
-MD5sum: 967475c4e65e58889079a81a46a8c29b
-SHA1: dd32ae93af706b69276e85eaa0b2c1b71a0281df
-SHA256: 0f6c4259652a07eccecde44194234067a6dc94c68ef6322e5c29d350bcf85001
-Section: unknown
-Priority: optional
-Homepage: https://atlas.bi
-Description: Atlas Automation Hub
-  Atlas Automation Hub is a task scheduling tool intended to be used
-  with getting data from a source and depositing it in a destination,
-  primarily sql queries to SFTP servers.
-
-Package: atlas-hub
-Version: 1.3.1
-Architecture: all
-Maintainer: Christopher Pickering <christopher@atlas.bi>
-Installed-Size: 47
-Depends: apt-utils, pkg-config, build-essential, libssl-dev, libffi-dev, git, wget, libldap2-dev, python3-dev, python3-pip, python3-setuptools, unixodbc, unixodbc-dev, libpq-dev, nginx, sqlite3, libsqlite3-0, libsasl2-dev, libxml2-dev, libxmlsec1-dev, redis-server, gnupg, postgresql, postgresql-contrib, python3.8-venv, jq
-Filename: ./atlas-hub_1.3.1_all.deb
-Size: 10772
-MD5sum: 9c323e806b567b75d407fe84d7b74920
-SHA1: 365ad1d653acc6da97d661c2ffe277af8a1f9cad
-SHA256: 59f6bef94403af0245a75fb6a355a1be6db85127ccc422588b1c89c037381691
-Section: unknown
-Priority: optional
-Homepage: https://atlas.bi
-Description: Atlas Automation Hub
-  Atlas Automation Hub is a task scheduling tool intended to be used
-  with getting data from a source and depositing it in a destination,
-  primarily sql queries to SFTP servers.
-
-Package: atlas-hub
-Version: 1.4.0
-Architecture: all
-Maintainer: Christopher Pickering <christopher@atlas.bi>
-Installed-Size: 47
-Depends: apt-utils, pkg-config, build-essential, libssl-dev, libffi-dev, git, wget, libldap2-dev, python3-dev, python3-pip, python3-setuptools, unixodbc, unixodbc-dev, libpq-dev, nginx, sqlite3, libsqlite3-0, libsasl2-dev, libxml2-dev, libxmlsec1-dev, redis-server, gnupg, postgresql, postgresql-contrib, python3.8-venv, jq
-Filename: ./atlas-hub_1.4.0_all.deb
-Size: 10784
-MD5sum: 7931d9a4ec1027df95c45542ab3a3e30
-SHA1: 50fcc7d1e45956f47cbaa828536bea0593c3c341
-SHA256: 39d2e608058c2b2718e2dc109859ab2fed2d1343b19b7af9f54ef23475e0f345
-Section: unknown
-Priority: optional
-Homepage: https://atlas.bi
-Description: Atlas Automation Hub
-  Atlas Automation Hub is a task scheduling tool intended to be used
-  with getting data from a source and depositing it in a destination,
-  primarily sql queries to SFTP servers.
-
-Package: atlas-hub
-Version: 1.4.1
-Architecture: all
-Maintainer: Christopher Pickering <christopher@atlas.bi>
-Installed-Size: 47
-Depends: apt-utils, pkg-config, build-essential, libssl-dev, libffi-dev, git, wget, libldap2-dev, python3-dev, python3-pip, python3-setuptools, unixodbc, unixodbc-dev, libpq-dev, nginx, sqlite3, libsqlite3-0, libsasl2-dev, libxml2-dev, libxmlsec1-dev, redis-server, gnupg, postgresql, postgresql-contrib, python3.8-venv, jq
-Filename: ./atlas-hub_1.4.1_all.deb
-Size: 10784
-MD5sum: d11bd9d9d86d48bb5a935ff4b6b049bc
-SHA1: 260da00acb246ba7d1d5346a86a0691f6ca1cd66
-SHA256: d59db7344aafcd7ff47f3f70b9124f3e4695a01de276755a13f9bcc87954a480
 Section: unknown
 Priority: optional
 Homepage: https://atlas.bi
@@ -337,30 +166,11 @@ Architecture: all
 Maintainer: Christopher Pickering <christopher@atlas.bi>
 Installed-Size: 47
 Depends: apt-utils, pkg-config, build-essential, libssl-dev, libffi-dev, git, wget, libldap2-dev, python3-dev, python3-pip, python3-setuptools, unixodbc, unixodbc-dev, libpq-dev, nginx, sqlite3, libsqlite3-0, libsasl2-dev, libxml2-dev, libxmlsec1-dev, redis-server, gnupg, postgresql, postgresql-contrib, python3.8-venv, jq
-Filename: ./atlas-hub_1.4.1-alpha.1_all.deb
+Filename: pool/unstable/atlas-hub_1.4.1-alpha.1_all.deb
 Size: 10800
 MD5sum: 4d9b1a090489695ac1799e8af5a5bda3
 SHA1: 0c2ce3ed753888d9c49f540900843f3ffcb48fe2
 SHA256: 5d408d2c1f1e75f11d10ae5d5abf08690eaf931a83fd5f0a7a51d0b3c231211f
-Section: unknown
-Priority: optional
-Homepage: https://atlas.bi
-Description: Atlas Automation Hub
-  Atlas Automation Hub is a task scheduling tool intended to be used
-  with getting data from a source and depositing it in a destination,
-  primarily sql queries to SFTP servers.
-
-Package: atlas-hub
-Version: 2.0.0
-Architecture: all
-Maintainer: Christopher Pickering <christopher@atlas.bi>
-Installed-Size: 47
-Depends: apt-utils, pkg-config, build-essential, libssl-dev, libffi-dev, git, wget, libldap2-dev, python3-dev, python3-pip, python3-setuptools, unixodbc, unixodbc-dev, libpq-dev, nginx, sqlite3, libsqlite3-0, libsasl2-dev, libxml2-dev, libxmlsec1-dev, redis-server, gnupg, postgresql, postgresql-contrib, python3-venv, jq
-Filename: ./atlas-hub_2.0.0_all.deb
-Size: 10924
-MD5sum: 1560d319cf7b776d4334e20c8ab76cd2
-SHA1: 3f4b9ae06cb206e1face3287ed9d2a0b20d451da
-SHA256: 7710b56b747f1fed5224e0afa4d5fb4b9a338b650edcd074af617233e180e3c5
 Section: unknown
 Priority: optional
 Homepage: https://atlas.bi
@@ -375,7 +185,7 @@ Architecture: all
 Maintainer: Christopher Pickering <christopher@atlas.bi>
 Installed-Size: 47
 Depends: apt-utils, pkg-config, build-essential, libssl-dev, libffi-dev, git, wget, libldap2-dev, python3-dev, python3-pip, python3-setuptools, unixodbc, unixodbc-dev, libpq-dev, nginx, sqlite3, libsqlite3-0, libsasl2-dev, libxml2-dev, libxmlsec1-dev, redis-server, gnupg, postgresql, postgresql-contrib, python3.8-venv, jq
-Filename: ./atlas-hub_2.0.0-alpha.1_all.deb
+Filename: pool/unstable/atlas-hub_2.0.0-alpha.1_all.deb
 Size: 10800
 MD5sum: a055645d418133ada3277dc853125047
 SHA1: 5bfc51c64af67493c4b74ce414ccf915a9221abd
@@ -394,7 +204,7 @@ Architecture: all
 Maintainer: Christopher Pickering <christopher@atlas.bi>
 Installed-Size: 47
 Depends: apt-utils, pkg-config, build-essential, libssl-dev, libffi-dev, git, wget, libldap2-dev, python3-dev, python3-pip, python3-setuptools, unixodbc, unixodbc-dev, libpq-dev, nginx, sqlite3, libsqlite3-0, libsasl2-dev, libxml2-dev, libxmlsec1-dev, redis-server, gnupg, postgresql, postgresql-contrib, python3-venv, jq
-Filename: ./atlas-hub_2.0.0-alpha.2_all.deb
+Filename: pool/unstable/atlas-hub_2.0.0-alpha.2_all.deb
 Size: 10948
 MD5sum: 2df2545f6fdac404e84b4450edcc78d0
 SHA1: addd40f09cb4f302fef759bfd0be4d5e9c654353
@@ -413,7 +223,7 @@ Architecture: all
 Maintainer: Christopher Pickering <christopher@atlas.bi>
 Installed-Size: 47
 Depends: apt-utils, pkg-config, build-essential, libssl-dev, libffi-dev, git, wget, libldap2-dev, python3-dev, python3-pip, python3-setuptools, unixodbc, unixodbc-dev, libpq-dev, nginx, sqlite3, libsqlite3-0, libsasl2-dev, libxml2-dev, libxmlsec1-dev, redis-server, gnupg, postgresql, postgresql-contrib, python3-venv, jq
-Filename: ./atlas-hub_2.0.0-alpha.3_all.deb
+Filename: pool/unstable/atlas-hub_2.0.0-alpha.3_all.deb
 Size: 10944
 MD5sum: 759b32bf25ac076827dc5472fb1eca46
 SHA1: ed432aba39c7141bc874d48a8d36d6cbf4329a30
@@ -432,7 +242,7 @@ Architecture: all
 Maintainer: Christopher Pickering <christopher@atlas.bi>
 Installed-Size: 47
 Depends: apt-utils, pkg-config, build-essential, libssl-dev, libffi-dev, git, wget, libldap2-dev, python3-dev, python3-pip, python3-setuptools, unixodbc, unixodbc-dev, libpq-dev, nginx, sqlite3, libsqlite3-0, libsasl2-dev, libxml2-dev, libxmlsec1-dev, redis-server, gnupg, postgresql, postgresql-contrib, python3-venv, jq
-Filename: ./atlas-hub_2.1.0-alpha.1_all.deb
+Filename: pool/unstable/atlas-hub_2.1.0-alpha.1_all.deb
 Size: 10940
 MD5sum: f493692d503e01dd397181281434a850
 SHA1: 0cfe11eab01ebf8eea3f7347088a5f9d5220b1ee
@@ -451,7 +261,7 @@ Architecture: all
 Maintainer: Christopher Pickering <christopher@atlas.bi>
 Installed-Size: 47
 Depends: apt-utils, pkg-config, build-essential, libssl-dev, libffi-dev, git, wget, libldap2-dev, python3-dev, python3-pip, python3-setuptools, unixodbc, unixodbc-dev, libpq-dev, nginx, sqlite3, libsqlite3-0, libsasl2-dev, libxml2-dev, libxmlsec1-dev, redis-server, gnupg, postgresql, postgresql-contrib, python3-venv, jq
-Filename: ./atlas-hub_2.1.0-alpha.2_all.deb
+Filename: pool/unstable/atlas-hub_2.1.0-alpha.2_all.deb
 Size: 10944
 MD5sum: edeac8c87152d8dca80dcf95e73e741c
 SHA1: 794415748c790c7699e8c4891d5438fc151015d8

@@ -1,1 +1,1 @@
-deb https://packages.atlas.bi/deb ./
+deb [arch=all] https://packages.atlas.bi/deb stable main
