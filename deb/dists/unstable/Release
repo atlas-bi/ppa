@@ -1,0 +1,17 @@
+Date: Tue, 31 May 2022 20:03:21 +0000
+MD5Sum:
+ f7e678d30cb759dda5b0cf0c14a3c2f3               38 Release
+ 288e598ec63851110b7008b0d1def2d1            16574 main/binary-all/Packages
+ f0416a46706eebee205c9c43dd197f85             2549 main/binary-all/Packages.gz
+SHA1:
+ 7a96f42d9b35e2f87dbc78669dbd25a3f8a05f15               38 Release
+ 9ae6e7d908938c69a29ff5efa8d76f307c218ce7            16574 main/binary-all/Packages
+ 0fc7fb764a17633706688111ef05c018bca6803f             2549 main/binary-all/Packages.gz
+SHA256:
+ 8819c8316a22f3fee2c8d8cc904b94d8239311d03572f254b5ecf9b8e856d72e               38 Release
+ 630a2ecb28df900f09c0faef34b17d68c4cb5b94b83758fec78d3e407bde5d4c            16574 main/binary-all/Packages
+ a0b9fcd2b100934d492c64c5939526ec450e7e564575b869fa6e5541efe9754c             2549 main/binary-all/Packages.gz
+SHA512:
+ 4892e34a24896848b53c0fa071b85ab78eae7b0e90360166bd19749567e9af7635d2d3574007b38a5685e2bba0e92192cccec708e4003eebfc4befabd29b7fb9               38 Release
+ ad8acbf0a683efb2977b60275762f7a632f5fa022f4df98101f0ecd8c075ce02d78b9f5783a2bb76aedf7e37e92dfc011b5005339743fbc2e8970f929a55ddd4            16574 main/binary-all/Packages
+ 164aadb90eef037cd98e1cdaa8085966818a2a17e42a9400dc6219952cc3b34f5ec65225d299e4a636283a0469b134e0769ea888d6a6792d13d2a6463b64b50b             2549 main/binary-all/Packages.gz

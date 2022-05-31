@@ -1,0 +1,36 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Date: Tue, 31 May 2022 20:03:21 +0000
+MD5Sum:
+ f7e678d30cb759dda5b0cf0c14a3c2f3               38 Release
+ 7a531a206a21ca653fb323c696a9b8df            11414 main/binary-all/Packages
+ bff6188a225903cd6c0e919278c1d221             1809 main/binary-all/Packages.gz
+SHA1:
+ 7a96f42d9b35e2f87dbc78669dbd25a3f8a05f15               38 Release
+ 67be52caefbaef93af2e76ca263e5da8046c99a2            11414 main/binary-all/Packages
+ 69c240481590dd178deed7c9cf1cc335eacbce6c             1809 main/binary-all/Packages.gz
+SHA256:
+ 8819c8316a22f3fee2c8d8cc904b94d8239311d03572f254b5ecf9b8e856d72e               38 Release
+ ce3839fc75cda843a76b1dcd7aa2e99c743c93246234593c88f4d8711300553d            11414 main/binary-all/Packages
+ 3ab1535fab31863e0c328d6d52eb547b50f8f95e174306a2a9f4b70964e6bbb0             1809 main/binary-all/Packages.gz
+SHA512:
+ 4892e34a24896848b53c0fa071b85ab78eae7b0e90360166bd19749567e9af7635d2d3574007b38a5685e2bba0e92192cccec708e4003eebfc4befabd29b7fb9               38 Release
+ cbf44692d2d3cf92794c3b8e094f96b96adb435de0ce089e2c8df0424524e2b65c464ab68294c54597db92cefb2796636020d8cfc1711c764e23b2bef7cafad8            11414 main/binary-all/Packages
+ 7d539e6bc312f644406d1111da46a7691c3c32f5b25573a5e25d87345fbf6dfee20f238fcc2d8fc0588c22efb06011859adbb4aec084a8140b3aad3604cc1cb3             1809 main/binary-all/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEuHzfikBLB+oKzb65ZFw2ConQiwUFAmKWdIkACgkQZFw2ConQ
+iwWcnxAAl5GNngYOBsYLGz5iPNm+1NN14L944EubzukOwfw2DoyNnGzqNRw6Rlzi
+awiqTErDa0KMikrUsMe/kqRZNJUNZinVjS7edn1bHPMgpCDre8bcMfUmCLFGDX9L
+endQ/jNc9mwy6haYj+HzDvBcDj6sCHKALYvCqglTfmzz5EfG7au5SLyhkov80bcf
+wQnWVKLGe5aU+Qlk0Y3Ov7cq2/Ag5MuEIa7mbLH0SxLy0Dwjfv8aXXZISqRQeZ7O
+Qi3VLA55DtD7ndT/iPe8KQKjldG8ooW5nkPhmKCxKRaf4jBewrlRIHUHj52iHamg
+0ObtY5T/oHpWFrFyG43V4KqNtrC0n1I36xK5ZY5J47/fMtQpfM4gwTOAPCZNTr2P
+h9qg3aLrurIfFmu6qN5XpcmXWYf/bL4Nd1xufun4yTlytZp9DQWr0wpgisgs404u
+vxrCU22A7PDN79E4bFTzCOPwsLhYldCIAImU+OzuYo/m31vFOl5YUYGr0DfjLlqk
+gssuOYynvGzfNB2r/FAQcqIY6K79XLmKFgJwT5OPZoAqLkypOiFYGdPfXlFJoEMu
+dQF0GN5TpnJKtHS6VwJ6/ShwKpTUqr5qiNQ5xrJa6JIhKK0xeHxT4p1YNHcs/WsJ
+PlkdRkak0+FtWluodt+pXk7t/Y7c1oxOp6CPWPT97VcDss9yuMg=
+=3rrn
+-----END PGP SIGNATURE-----
