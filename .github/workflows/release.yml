@@ -1,0 +1,141 @@
+name: Release
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+
+      with:
+        fetch-depth: 0
+        persist-credentials: false
+
+    - name: Install deps
+      run: |
+        sudo apt-get update
+        sudo apt-get install dh-make devscripts dpkg-dev gzip apt-utils -y
+
+    - name: Load GPG Keys
+      run: |
+        echo -n "$GPG_SIGNING_KEY" | base64 --decode | gpg --import
+      env:
+        GPG_SIGNING_KEY: ${{ secrets.PPA_GPG_SECRET }}
+
+    - name: Build Release
+      run: |
+        cd ./deb
+
+        # build packages
+        dpkg-scanpackages --multiversion pool/stable > dists/stable/main/binary-all/Packages
+        dpkg-scanpackages --multiversion pool/unstable > dists/unstable/main/binary-all/Packages
+
+        # zip it up
+        gzip -k -f dists/unstable/main/binary-all/Packages
+        gzip -k -f dists/stable/main/binary-all/Packages
+
+        # Release
+        apt-ftparchive release dists/stable > dists/stable/Release
+        apt-ftparchive release dists/unstable > dists/unstable/Release
+
+        # Release.gpg
+        gpg -abs -o - dists/stable/Release > dists/stable/Release.gpg
+        gpg -abs -o - dists/unstable/Release > dists/unstable/Release.gpg
+
+        # InRelease
+        gpg --clearsign -o - dists/stable/Release > dists/stable/InRelease
+        gpg --clearsign -o - dists/unstable/Release > dists/unstable/InRelease
+
+        cd ..
+        ls
+
+    - name: Commit changes
+      run: |
+        git config --local user.name "github-actions[bot]"
+        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git add .
+        git commit -m "updated release"
+      env:
+        USER: ${{ secrets.GIT_USER }}
+        EMAIL: ${{ secrets.GIT_EMAIL }}
+
+    - name: Push changes
+      if: steps.semantic.outputs.new_release_published == 'true'
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.PPA_REPO_PAT }}
+        branch: master
+        directory: ppa
+        repository: atlas-bi/ppa
+
+  validate-latest:
+    needs: release
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Sleep for 30 seconds for apt to update
+      run: sleep 30s
+      shell: bash
+
+    - name: update apt list
+      if: needs.release.outputs.new_release_published == 'true'
+      run: |
+        sudo apt update
+        sudo apt install curl gnupg2
+        curl -s "https://packages.atlas.bi/scripts/deb.sh" | sudo bash -
+
+    - name: install
+      if: needs.release.outputs.new_release_published == 'true'
+      run: sudo apt install -y atlas-hub=$VERSION
+      env:
+        VERSION: ${{ needs.release.outputs.new_release_version }}
+
+    - name: check install is online
+      if: needs.release.outputs.new_release_published == 'true'
+      run: |
+        curl https://raw.githubusercontent.com/orangemug/bash-assert/master/assert.sh > assert.sh
+        source ./assert.sh
+        assert $(curl -s -o /dev/null -w "%{http_code}" localhost/login) -eq 200
+        # we can login?
+        if [[ ! $(curl -X POST localhost/login?user=admin 2> /dev/null | grep -oP href=\"/\") == href=\"/\" ]]; then exit 1; fi
+
+    - name: uninstall
+      if: needs.release.outputs.new_release_published == 'true'
+      run: sudo apt remove atlas-hub
+
+  validate-upgrade:
+    needs: release
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Sleep for 30 seconds for apt to update
+      run: sleep 30s
+      shell: bash
+
+    - name: update apt list
+      if: needs.release.outputs.new_release_published == 'true'
+      run: |
+        sudo apt update
+        sudo apt install curl gnupg2
+        curl -s "https://packages.atlas.bi/scripts/deb.sh" | sudo bash -
+
+    - name: install
+      if: needs.release.outputs.new_release_published == 'true'
+      run: sudo apt install -y atlas-hub=$VERSION
+      env:
+        VERSION: ${{ needs.release.outputs.last_release_version }}
+
+    - name: upgrade
+      if: needs.release.outputs.new_release_published == 'true'
+      run: sudo apt install -y atlas-hub=$VERSION
+      env:
+        VERSION: ${{ needs.release.outputs.new_release_version }}
+
+    - name: uninstall
+      if: needs.release.outputs.new_release_published == 'true'
+      run: sudo apt remove atlas-hub
