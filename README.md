@@ -30,7 +30,7 @@ sudo apt update && sudo apt upgrade
 ## Installing Alpha Versions
 
 ```sh
-curl -s --compressed "https://packages.atlas.bi/deb/KEY.gpg" | apt-key add -
-echo "deb [arch=all] https://packages.atlas.bi/deb/ ./unstable main" > /etc/apt/sources.list.d/atlas.list
+curl -s --compressed "https://packages.atlas.bi/deb/KEY.gpg" | gpg --dearmor | tee /etc/apt/trusted.gpg.d/atlas.gpg > /dev/null 2>&1
+echo "deb [arch=all signed-by=/etc/apt/trusted.gpg.d/atlas.gpg] https://packages.atlas.bi/deb/ ./unstable main" > /etc/apt/sources.list.d/atlas.list
 apt update
 ```
