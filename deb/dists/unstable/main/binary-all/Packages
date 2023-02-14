@@ -709,3 +709,20 @@ Homepage: https://atlas.bi
 Description: Atlas Requests
   Atlas Requests is a report service request portal.
 
+Package: atlas-requests
+Version: 1.0.0-rc.2
+Architecture: all
+Maintainer: Christopher Pickering <christopher@atlas.bi>
+Installed-Size: 27
+Depends: apt-utils, pkg-config, build-essential, libssl-dev, libffi-dev, git, wget, libldap2-dev, unixodbc, unixodbc-dev, libpq-dev, nginx, libsasl2-dev, libxml2-dev, libxmlsec1-dev, redis-server, postgresql, postgresql-contrib, jq
+Filename: pool/unstable/atlas-requests_1.0.0-rc.2_all.deb
+Size: 6348
+MD5sum: 1b32eebb62071b53e8150f352efd190d
+SHA1: 222840015d312016ca7681dca5079a48f66c1ce6
+SHA256: 38e12c93fa35b08bf33c864c2fad1f365d60986734bb0e6626c7df5e64f6065f
+Section: unknown
+Priority: optional
+Homepage: https://atlas.bi
+Description: Atlas Requests
+  Atlas Requests is a report service request portal.
+
