@@ -426,3 +426,303 @@ Description: Atlas Automation Hub
   with getting data from a source and depositing it in a destination,
   primarily sql queries to SFTP servers.
 
+Package: atlas-hub
+Version: 2.2.1-alpha.1
+Architecture: all
+Maintainer: Christopher Pickering <christopher@atlas.bi>
+Installed-Size: 47
+Depends: apt-utils, pkg-config, build-essential, libssl-dev, libffi-dev, git, wget, libldap2-dev, python3-dev, python3-pip, python3-setuptools, unixodbc, unixodbc-dev, libpq-dev, nginx, sqlite3, libsqlite3-0, libsasl2-dev, libxml2-dev, libxmlsec1-dev, redis-server, gnupg, postgresql, postgresql-contrib, python3-venv, jq
+Filename: pool/unstable/atlas-hub_2.2.1-alpha.1_all.deb
+Size: 10944
+MD5sum: edf9fad7579412c8e87c80b6e0c71426
+SHA1: 77ad47515ca69181d6c70fac68a69fbb664e5ea5
+SHA256: 9aa087bbf01ac23ffcb0ed15605824c9aa916df5b6bc5286cd7b7d0cff42c54f
+Section: unknown
+Priority: optional
+Homepage: https://atlas.bi
+Description: Atlas Automation Hub
+  Atlas Automation Hub is a task scheduling tool intended to be used
+  with getting data from a source and depositing it in a destination,
+  primarily sql queries to SFTP servers.
+
+Package: atlas-hub
+Version: 2.2.2-alpha.1
+Architecture: all
+Maintainer: Christopher Pickering <christopher@atlas.bi>
+Installed-Size: 47
+Depends: apt-utils, pkg-config, build-essential, libssl-dev, libffi-dev, git, wget, libldap2-dev, python3-dev, python3-pip, python3-setuptools, unixodbc, unixodbc-dev, libpq-dev, nginx, sqlite3, libsqlite3-0, libsasl2-dev, libxml2-dev, libxmlsec1-dev, redis-server, gnupg, postgresql, postgresql-contrib, python3-venv, jq
+Filename: pool/unstable/atlas-hub_2.2.2-alpha.1_all.deb
+Size: 10944
+MD5sum: fa0af3cacec2bcc7310c9ce595d093ec
+SHA1: 3b1703f8645f011c5abea9e8a2f625116766b346
+SHA256: 77c8bf0fe9713c4afd456e28eda588ddfe54d9a1e1f52332f7982652cce7c739
+Section: unknown
+Priority: optional
+Homepage: https://atlas.bi
+Description: Atlas Automation Hub
+  Atlas Automation Hub is a task scheduling tool intended to be used
+  with getting data from a source and depositing it in a destination,
+  primarily sql queries to SFTP servers.
+
+Package: atlas-hub
+Version: 2.3.0-alpha.1
+Architecture: all
+Maintainer: Christopher Pickering <christopher@atlas.bi>
+Installed-Size: 47
+Depends: apt-utils, pkg-config, build-essential, libssl-dev, libffi-dev, git, wget, libldap2-dev, python3-dev, python3-pip, python3-setuptools, unixodbc, unixodbc-dev, libpq-dev, nginx, sqlite3, libsqlite3-0, libsasl2-dev, libxml2-dev, libxmlsec1-dev, redis-server, gnupg, postgresql, postgresql-contrib, python3-venv, jq
+Filename: pool/unstable/atlas-hub_2.3.0-alpha.1_all.deb
+Size: 10944
+MD5sum: 5868105200db4ecd71f41ac57cdb8c49
+SHA1: 2cffadad057e9dad353fa64d7acc4bbac4b3da78
+SHA256: 8309561f99cc80bb21bec9d1805b00a9a0e72021e5a629600e9b40cda072882d
+Section: unknown
+Priority: optional
+Homepage: https://atlas.bi
+Description: Atlas Automation Hub
+  Atlas Automation Hub is a task scheduling tool intended to be used
+  with getting data from a source and depositing it in a destination,
+  primarily sql queries to SFTP servers.
+
+Package: atlas-hub
+Version: 2.3.0-alpha.2
+Architecture: all
+Maintainer: Christopher Pickering <christopher@atlas.bi>
+Installed-Size: 47
+Depends: apt-utils, pkg-config, build-essential, libssl-dev, libffi-dev, git, wget, libldap2-dev, python3-dev, python3-pip, python3-setuptools, unixodbc, unixodbc-dev, libpq-dev, nginx, sqlite3, libsqlite3-0, libsasl2-dev, libxml2-dev, libxmlsec1-dev, redis-server, gnupg, postgresql, postgresql-contrib, python3-venv, jq
+Filename: pool/unstable/atlas-hub_2.3.0-alpha.2_all.deb
+Size: 10940
+MD5sum: c14adb310e48052b297b0475ef72df7d
+SHA1: cf8c66b9be7c4fa354d44892ec553c9b6967b9d5
+SHA256: 57f0f5c197bd881ef1b8f276a970de02472dfc869c219f4a599f42de1cd1830b
+Section: unknown
+Priority: optional
+Homepage: https://atlas.bi
+Description: Atlas Automation Hub
+  Atlas Automation Hub is a task scheduling tool intended to be used
+  with getting data from a source and depositing it in a destination,
+  primarily sql queries to SFTP servers.
+
+Package: atlas-hub
+Version: 2.3.0-alpha.3
+Architecture: all
+Maintainer: Christopher Pickering <christopher@atlas.bi>
+Installed-Size: 47
+Depends: apt-utils, pkg-config, build-essential, libssl-dev, libffi-dev, git, wget, libldap2-dev, python3-dev, python3-pip, python3-setuptools, unixodbc, unixodbc-dev, libpq-dev, nginx, sqlite3, libsqlite3-0, libsasl2-dev, libxml2-dev, libxmlsec1-dev, redis-server, gnupg, postgresql, postgresql-contrib, python3-venv, jq
+Filename: pool/unstable/atlas-hub_2.3.0-alpha.3_all.deb
+Size: 10944
+MD5sum: 22da4ff5d6dee655f1d093c64cb85123
+SHA1: 14e5de54070558b9baccd7a7c0f33d19806199f6
+SHA256: 48d24f6650ee47032e29b7e1462eaf9a4b96ab742a9d0bcdb27656262fc3a956
+Section: unknown
+Priority: optional
+Homepage: https://atlas.bi
+Description: Atlas Automation Hub
+  Atlas Automation Hub is a task scheduling tool intended to be used
+  with getting data from a source and depositing it in a destination,
+  primarily sql queries to SFTP servers.
+
+Package: atlas-hub
+Version: 2.3.1-alpha.1
+Architecture: all
+Maintainer: Christopher Pickering <christopher@atlas.bi>
+Installed-Size: 47
+Depends: apt-utils, pkg-config, build-essential, libssl-dev, libffi-dev, git, wget, libldap2-dev, python3-dev, python3-pip, python3-setuptools, unixodbc, unixodbc-dev, libpq-dev, nginx, sqlite3, libsqlite3-0, libsasl2-dev, libxml2-dev, libxmlsec1-dev, redis-server, gnupg, postgresql, postgresql-contrib, python3-venv, jq
+Filename: pool/unstable/atlas-hub_2.3.1-alpha.1_all.deb
+Size: 10944
+MD5sum: efc197c08809c2910a7896bb65a5b051
+SHA1: 3da01c47bc5a61d8369b681b6795a71a2796715d
+SHA256: 5b34b70e1b9095add92d53e1ac04f2870f25689cfb364bbd357c9ab2c5997b8a
+Section: unknown
+Priority: optional
+Homepage: https://atlas.bi
+Description: Atlas Automation Hub
+  Atlas Automation Hub is a task scheduling tool intended to be used
+  with getting data from a source and depositing it in a destination,
+  primarily sql queries to SFTP servers.
+
+Package: atlas-hub
+Version: 2.3.1-alpha.2
+Architecture: all
+Maintainer: Christopher Pickering <christopher@atlas.bi>
+Installed-Size: 47
+Depends: apt-utils, pkg-config, build-essential, libssl-dev, libffi-dev, git, wget, libldap2-dev, python3-dev, python3-pip, python3-setuptools, unixodbc, unixodbc-dev, libpq-dev, nginx, sqlite3, libsqlite3-0, libsasl2-dev, libxml2-dev, libxmlsec1-dev, redis-server, gnupg, postgresql, postgresql-contrib, python3-venv, jq
+Filename: pool/unstable/atlas-hub_2.3.1-alpha.2_all.deb
+Size: 10944
+MD5sum: 474db8c7d901c3cce29668716f0af3b7
+SHA1: 6754a1955eda1903d947f8e7bb8d9dfabfaf2c97
+SHA256: b7977ea1c4d2135cf45bac31f73ee2743932492726fff5ab2598f99458c25478
+Section: unknown
+Priority: optional
+Homepage: https://atlas.bi
+Description: Atlas Automation Hub
+  Atlas Automation Hub is a task scheduling tool intended to be used
+  with getting data from a source and depositing it in a destination,
+  primarily sql queries to SFTP servers.
+
+Package: atlas-hub
+Version: 2.4.0-alpha.1
+Architecture: all
+Maintainer: Christopher Pickering <christopher@atlas.bi>
+Installed-Size: 47
+Depends: apt-utils, pkg-config, build-essential, libssl-dev, libffi-dev, git, wget, libldap2-dev, python3-dev, python3-pip, python3-setuptools, unixodbc, unixodbc-dev, libpq-dev, nginx, sqlite3, libsqlite3-0, libsasl2-dev, libxml2-dev, libxmlsec1-dev, redis-server, gnupg, postgresql, postgresql-contrib, python3-venv, jq
+Filename: pool/unstable/atlas-hub_2.4.0-alpha.1_all.deb
+Size: 10944
+MD5sum: b43c0ba20b2417ffd0e8e7e4751df02a
+SHA1: e28d96ca3caa991272d79f84a6ae62c3f6dfc4d6
+SHA256: 8fe4fa16def6513f6710f44e9767213c50e1425ca291685c5b3ad8ecd540b5f8
+Section: unknown
+Priority: optional
+Homepage: https://atlas.bi
+Description: Atlas Automation Hub
+  Atlas Automation Hub is a task scheduling tool intended to be used
+  with getting data from a source and depositing it in a destination,
+  primarily sql queries to SFTP servers.
+
+Package: atlas-hub
+Version: 2.4.0-alpha.2
+Architecture: all
+Maintainer: Christopher Pickering <christopher@atlas.bi>
+Installed-Size: 47
+Depends: apt-utils, pkg-config, build-essential, libssl-dev, libffi-dev, git, wget, libldap2-dev, python3-dev, python3-pip, python3-setuptools, unixodbc, unixodbc-dev, libpq-dev, nginx, sqlite3, libsqlite3-0, libsasl2-dev, libxml2-dev, libxmlsec1-dev, redis-server, gnupg, postgresql, postgresql-contrib, python3-venv, jq
+Filename: pool/unstable/atlas-hub_2.4.0-alpha.2_all.deb
+Size: 10944
+MD5sum: 844e91155dad93233f374ebb9599748c
+SHA1: 3164c33ca3772ac4312a06a04819929f7f4b2f67
+SHA256: 51facf54e4d130c9aa66bdd382f0fd5a915bda0acde0cd1d2b4d4be8aa67ae2c
+Section: unknown
+Priority: optional
+Homepage: https://atlas.bi
+Description: Atlas Automation Hub
+  Atlas Automation Hub is a task scheduling tool intended to be used
+  with getting data from a source and depositing it in a destination,
+  primarily sql queries to SFTP servers.
+
+Package: atlas-hub
+Version: 2.4.2-alpha.1
+Architecture: all
+Maintainer: Christopher Pickering <christopher@atlas.bi>
+Installed-Size: 47
+Depends: apt-utils, pkg-config, build-essential, libssl-dev, libffi-dev, git, wget, libldap2-dev, python3-dev, python3-pip, python3-setuptools, unixodbc, unixodbc-dev, libpq-dev, nginx, sqlite3, libsqlite3-0, libsasl2-dev, libxml2-dev, libxmlsec1-dev, redis-server, gnupg, postgresql, postgresql-contrib, python3-venv, jq
+Filename: pool/unstable/atlas-hub_2.4.2-alpha.1_all.deb
+Size: 10944
+MD5sum: 461a57ceec9ae8f144a549a00497b0bf
+SHA1: 15746d1dd6d56443a07dbd612e1ec99894bbfd44
+SHA256: b24265dbef239af5ef733989db428549c97551382c8b2b44334869199c64c92a
+Section: unknown
+Priority: optional
+Homepage: https://atlas.bi
+Description: Atlas Automation Hub
+  Atlas Automation Hub is a task scheduling tool intended to be used
+  with getting data from a source and depositing it in a destination,
+  primarily sql queries to SFTP servers.
+
+Package: atlas-hub
+Version: 2.5.0-alpha.1
+Architecture: all
+Maintainer: Christopher Pickering <christopher@atlas.bi>
+Installed-Size: 47
+Depends: apt-utils, pkg-config, build-essential, libssl-dev, libffi-dev, git, wget, libldap2-dev, python3-dev, python3-pip, python3-setuptools, unixodbc, unixodbc-dev, libpq-dev, nginx, sqlite3, libsqlite3-0, libsasl2-dev, libxml2-dev, libxmlsec1-dev, redis-server, gnupg, postgresql, postgresql-contrib, python3-venv, jq
+Filename: pool/unstable/atlas-hub_2.5.0-alpha.1_all.deb
+Size: 10948
+MD5sum: 8d4f8dde527389c5368ff318b11aea5a
+SHA1: 177e214af42305287ad80a42acd4d0b6b579d4ef
+SHA256: 94a5f0837c2331c75f294eae22d170dc50fe7be03975577ae749d411c4a8a2bb
+Section: unknown
+Priority: optional
+Homepage: https://atlas.bi
+Description: Atlas Automation Hub
+  Atlas Automation Hub is a task scheduling tool intended to be used
+  with getting data from a source and depositing it in a destination,
+  primarily sql queries to SFTP servers.
+
+Package: atlas-hub
+Version: 2.5.0-alpha.2
+Architecture: all
+Maintainer: Christopher Pickering <christopher@atlas.bi>
+Installed-Size: 47
+Depends: apt-utils, pkg-config, build-essential, libssl-dev, libffi-dev, git, wget, libldap2-dev, python3-dev, python3-pip, python3-setuptools, unixodbc, unixodbc-dev, libpq-dev, nginx, sqlite3, libsqlite3-0, libsasl2-dev, libxml2-dev, libxmlsec1-dev, redis-server, gnupg, postgresql, postgresql-contrib, python3-venv, jq
+Filename: pool/unstable/atlas-hub_2.5.0-alpha.2_all.deb
+Size: 10944
+MD5sum: 77584512a78ac8554e1dd27feb44eba9
+SHA1: d67b6d440ba9af1131d229907be50886ba35c410
+SHA256: 080c91fc8ab1016340e28c374d9ae462119731e1b12db3d8d8b316f30b014dec
+Section: unknown
+Priority: optional
+Homepage: https://atlas.bi
+Description: Atlas Automation Hub
+  Atlas Automation Hub is a task scheduling tool intended to be used
+  with getting data from a source and depositing it in a destination,
+  primarily sql queries to SFTP servers.
+
+Package: atlas-hub
+Version: 2.6.0-alpha.1
+Architecture: all
+Maintainer: Christopher Pickering <christopher@atlas.bi>
+Installed-Size: 47
+Depends: apt-utils, pkg-config, build-essential, libssl-dev, libffi-dev, git, wget, libldap2-dev, python3-dev, python3-pip, python3-setuptools, unixodbc, unixodbc-dev, libpq-dev, nginx, sqlite3, libsqlite3-0, libsasl2-dev, libxml2-dev, libxmlsec1-dev, redis-server, gnupg, postgresql, postgresql-contrib, python3-venv, jq
+Filename: pool/unstable/atlas-hub_2.6.0-alpha.1_all.deb
+Size: 10944
+MD5sum: 27b917841adaeb7d4d3e2e3f733fb0b5
+SHA1: 8ff162600396beb2ed13257aef0b679cc3543556
+SHA256: fe8efc7c9917437aaa5cce42b8a749455b4b274e5571af445bf67f4e7ccca517
+Section: unknown
+Priority: optional
+Homepage: https://atlas.bi
+Description: Atlas Automation Hub
+  Atlas Automation Hub is a task scheduling tool intended to be used
+  with getting data from a source and depositing it in a destination,
+  primarily sql queries to SFTP servers.
+
+Package: atlas-hub
+Version: 2.7.0-alpha.1
+Architecture: all
+Maintainer: Christopher Pickering <christopher@atlas.bi>
+Installed-Size: 47
+Depends: apt-utils, pkg-config, build-essential, libssl-dev, libffi-dev, git, wget, libldap2-dev, python3-dev, python3-pip, python3-setuptools, unixodbc, unixodbc-dev, libpq-dev, nginx, sqlite3, libsqlite3-0, libsasl2-dev, libxml2-dev, libxmlsec1-dev, redis-server, gnupg, postgresql, postgresql-contrib, python3-venv, jq
+Filename: pool/unstable/atlas-hub_2.7.0-alpha.1_all.deb
+Size: 11014
+MD5sum: 756db63af1dcf570ebba3a20db1180ab
+SHA1: 3ca83b6a621550ec3bc38c2b9e0e4739be61d214
+SHA256: e8462f451dc1907019f806bbd4a6af927a95402bcce1432d9291fe77a9129192
+Section: unknown
+Priority: optional
+Homepage: https://atlas.bi
+Description: Atlas Automation Hub
+  Atlas Automation Hub is a task scheduling tool intended to be used
+  with getting data from a source and depositing it in a destination,
+  primarily sql queries to SFTP servers.
+
+Package: atlas-requests
+Version: 1.0.0-rc.1
+Architecture: all
+Maintainer: Christopher Pickering <christopher@atlas.bi>
+Installed-Size: 29
+Depends: apt-utils, pkg-config, build-essential, libssl-dev, libffi-dev, git, wget, libldap2-dev, unixodbc, unixodbc-dev, libpq-dev, nginx, libsasl2-dev, libxml2-dev, libxmlsec1-dev, redis-server, postgresql, postgresql-contrib, jq
+Filename: pool/unstable/atlas-requests_1.0.0-rc.1_all.deb
+Size: 6864
+MD5sum: d8e2fe1280472e25aaed561a1f74a1e9
+SHA1: 5fa2813cdad0321b0ed4e70c525e508576335139
+SHA256: a4d455545c953b131e89699b10a96724204bbca07e2d2ccdb616303224cf2c2c
+Section: unknown
+Priority: optional
+Homepage: https://atlas.bi
+Description: Atlas Requests
+  Atlas Requests is a report service request portal.
+
+Package: atlas-requests
+Version: 1.0.0-rc.2
+Architecture: all
+Maintainer: Christopher Pickering <christopher@atlas.bi>
+Installed-Size: 27
+Depends: apt-utils, pkg-config, build-essential, libssl-dev, libffi-dev, git, wget, libldap2-dev, unixodbc, unixodbc-dev, libpq-dev, nginx, libsasl2-dev, libxml2-dev, libxmlsec1-dev, redis-server, postgresql, postgresql-contrib, jq
+Filename: pool/unstable/atlas-requests_1.0.0-rc.2_all.deb
+Size: 6348
+MD5sum: 1b32eebb62071b53e8150f352efd190d
+SHA1: 222840015d312016ca7681dca5079a48f66c1ce6
+SHA256: 38e12c93fa35b08bf33c864c2fad1f365d60986734bb0e6626c7df5e64f6065f
+Section: unknown
+Priority: optional
+Homepage: https://atlas.bi
+Description: Atlas Requests
+  Atlas Requests is a report service request portal.
+
