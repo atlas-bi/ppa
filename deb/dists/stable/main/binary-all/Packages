@@ -435,3 +435,20 @@ Description: Atlas Automation Hub
   with getting data from a source and depositing it in a destination,
   primarily sql queries to SFTP servers.
 
+Package: atlas-requests
+Version: 1.0.0
+Architecture: all
+Maintainer: Christopher Pickering <christopher@atlas.bi>
+Installed-Size: 35
+Depends: apt-utils, pkg-config, build-essential, libssl-dev, libffi-dev, git, wget, libldap2-dev, unixodbc, unixodbc-dev, libpq-dev, nginx, libsasl2-dev, libxml2-dev, libxmlsec1-dev, redis-server, postgresql, postgresql-contrib, jq
+Filename: pool/stable/atlas-requests_1.0.0_all.deb
+Size: 7596
+MD5sum: 13cac6256a5ade7bb9a0808979631cdd
+SHA1: 1fee3661b910d35d3d40f25f0acd9e11be0890dd
+SHA256: e7f91a117d480968c53d007382246b8834853cd18783283ccaaef9927055fd76
+Section: unknown
+Priority: optional
+Homepage: https://atlas.bi
+Description: Atlas Requests is a report service request portal.
+ Thanks for installing. Documentation available at https://atlas.bi
+
